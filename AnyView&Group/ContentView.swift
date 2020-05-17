@@ -13,14 +13,14 @@ struct ContentView: View {
     private var isLoggedIn: Bool = true
     
     var body: some View {
-        Group {
-            if isLoggedIn {
-                Image(systemName: "hand.thumbsup.fill")
+        
+        if isLoggedIn {
+            return AnyView(Image(systemName: "hand.thumbsup.fill")
                 .resizable()
-                    .frame(width: 100, height: 100)
-            } else {
-                Text("Not Logged In")
-            }
+                .frame(width: 100, height: 100)
+            )
+        } else {
+            return AnyView(Text("Not Logged In"))
         }
     }
 }
