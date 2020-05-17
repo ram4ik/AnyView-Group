@@ -10,13 +10,17 @@ import SwiftUI
 
 struct ContentView: View {
     
-    private var isLoggedIn: Bool = false
+    private var isLoggedIn: Bool = true
     
     var body: some View {
-        if isLoggedIn {
-            return Text("Logged In")
-        } else {
-            return Text("Not Logged In")
+        Group {
+            if isLoggedIn {
+                Image(systemName: "hand.thumbsup.fill")
+                .resizable()
+                    .frame(width: 100, height: 100)
+            } else {
+                Text("Not Logged In")
+            }
         }
     }
 }
