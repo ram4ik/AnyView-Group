@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D125CAD2471798B00FF7149 /* AnyView&Group.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AnyView&Group.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D125CAD2471798B00FF7149 /* AnyView-Group.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AnyView-Group.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D125CB02471798B00FF7149 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D125CB22471798B00FF7149 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1D125CB42471798B00FF7149 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		1D125CAE2471798B00FF7149 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D125CAD2471798B00FF7149 /* AnyView&Group.app */,
+				1D125CAD2471798B00FF7149 /* AnyView-Group.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,9 +78,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D125CAC2471798B00FF7149 /* AnyView&Group */ = {
+		1D125CAC2471798B00FF7149 /* AnyView-Group */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D125CC12471798E00FF7149 /* Build configuration list for PBXNativeTarget "AnyView&Group" */;
+			buildConfigurationList = 1D125CC12471798E00FF7149 /* Build configuration list for PBXNativeTarget "AnyView-Group" */;
 			buildPhases = (
 				1D125CA92471798B00FF7149 /* Sources */,
 				1D125CAA2471798B00FF7149 /* Frameworks */,
@@ -90,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = "AnyView&Group";
+			name = "AnyView-Group";
 			productName = "AnyView&Group";
-			productReference = 1D125CAD2471798B00FF7149 /* AnyView&Group.app */;
+			productReference = 1D125CAD2471798B00FF7149 /* AnyView-Group.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1D125CA82471798B00FF7149 /* Build configuration list for PBXProject "AnyView&Group" */;
+			buildConfigurationList = 1D125CA82471798B00FF7149 /* Build configuration list for PBXProject "AnyView-Group" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D125CAC2471798B00FF7149 /* AnyView&Group */,
+				1D125CAC2471798B00FF7149 /* AnyView-Group */,
 			);
 		};
 /* End PBXProject section */
@@ -323,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D125CA82471798B00FF7149 /* Build configuration list for PBXProject "AnyView&Group" */ = {
+		1D125CA82471798B00FF7149 /* Build configuration list for PBXProject "AnyView-Group" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D125CBF2471798E00FF7149 /* Debug */,
@@ -332,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D125CC12471798E00FF7149 /* Build configuration list for PBXNativeTarget "AnyView&Group" */ = {
+		1D125CC12471798E00FF7149 /* Build configuration list for PBXNativeTarget "AnyView-Group" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D125CC22471798E00FF7149 /* Debug */,

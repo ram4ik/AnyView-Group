@@ -9,8 +9,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    private var isLoggedIn: Bool = false
+    
     var body: some View {
-        Text("Hello, World!")
+        if isLoggedIn {
+            return Text("Logged In")
+        } else {
+            return Text("Not Logged In")
+        }
     }
 }
 
